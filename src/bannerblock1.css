@@ -1,0 +1,12 @@
+#mainblock1 {
+    display: flex;
+    background-image: url("images/bgblock1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+}
+
+.container {
+    border: 1px solid black;
+    margin: 10px;
+}

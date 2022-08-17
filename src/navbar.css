@@ -1,0 +1,28 @@
+#navbar {
+    position: sticky;
+    top: 0px;
+    background-color: #b08902;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+    z-index: 1;
+}
+.companyname {
+    color: #1f2428;
+    margin-left: 19px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+li {
+    color: #d5dbe7;
+    margin-inline: 18px;
+}
+
+a {
+    text-decoration: none;
+}

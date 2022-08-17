@@ -1,0 +1,63 @@
+#mainblock0 {
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    align-items: center;
+    justify-content: center;
+    background-image: url(D:\asisportfolio\src\images\bgtextile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 67px;
+}
+
+.centerpiece {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    flex-wrap: wrap-reverse;
+    padding: 20px;
+}
+
+.bg-image0 {
+    justify-self: center;
+}
+
+.textcontent {
+    background: linear-gradient(135deg, rgba(255, 255, 0, 0.1), rgba(255, 255, 0, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: -10px 8px 15px 0 rgba(0, 0, 0, 0.37);
+    padding: 20px;
+}
+
+.textcontent>h1 {
+    font-size: 72px;
+}
+.textcontent>h2 {
+   display: inline;
+}
+
+.foottext {
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+    .textcontent {
+        flex-grow: 5;
+        text-align: center;
+    }
+    .bg-image0 {
+        flex-grow: 1;
+        width: auto;
+        height: auto;
+        min-width: 450px;
+    }
+    .bg-image0>img {
+        height: 100%;
+        width:  100%;
+        object-fit: contain;
+    }
+}
